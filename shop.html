@@ -7,104 +7,98 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>shop</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="css/shop.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />    
 </head>
 <body>
-<nav id="nav">
-  <div class="icon">
-    <img alt="icon" src="icon.png"/>
-  </div>
+  <div class="wrapper">
+    <nav id="nav">
+      <div class="icon">
+        <img alt="icon" src="image/icon.png"/>
+      </div>
 
-  <div class="link">
-    <div id="illustration">ILLUSTRATION 插画</div>
-    <div id="about">ABOUT & CONTACT简介 & 联系</div>
-    <div id="shop">SHOP商店</div>
+  <div class="link flex flex-col gap-4">
+    <a id="illustration" href="index.html" class="opacity-70 hover:opacity-100 hover:font-bold transition">ILLUSTRATION</a>
+    <a id="about" href="#" class="opacity-70 hover:opacity-100 hover:font-bold transition">ABOUT & CONTACT</a>
+    <a id="shop" href="shop.html" class="opacity-100 font-bold transition">SHOP</a>
   </div>
-
-  <div class="logo">
-    <a href="https://www.baidu.com">
-      <svg t="1693100750561" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4077" width="32" height="32"><path d="M511.986548 1024a512.013452 512.013452 0 1 1 512.013452-511.986548 511.986548 511.986548 0 0 1-512.013452 511.986548" fill="#1A1922" p-id="4078"></path><path d="M511.986548 281.848191c74.955046 0 83.833425 0.295946 113.428023 1.641155a154.268569 154.268569 0 0 1 52.140301 9.685505 92.900134 92.900134 0 0 1 53.270277 53.243372 155.721395 155.721395 0 0 1 9.685505 52.140301c1.345209 29.594598 1.641155 38.472978 1.641155 113.454928s-0.295946 83.833425-1.641155 113.428024a155.721395 155.721395 0 0 1-9.685505 52.140301 92.792517 92.792517 0 0 1-53.270277 53.243372 154.268569 154.268569 0 0 1-52.140301 9.685505c-29.594598 1.372113-38.446073 1.641155-113.428023 1.641155s-83.833425-0.269042-113.428024-1.641155a154.268569 154.268569 0 0 1-52.140301-9.685505 92.792517 92.792517 0 0 1-53.270276-53.243372 155.748299 155.748299 0 0 1-9.685505-52.140301c-1.318305-29.594598-1.614251-38.472978-1.614251-113.428024s0.295946-83.860329 1.614251-113.454928a155.748299 155.748299 0 0 1 9.685505-52.140301 92.900134 92.900134 0 0 1 53.270276-53.243372 154.268569 154.268569 0 0 1 52.140301-9.685505c29.594598-1.345209 38.472978-1.641155 113.428024-1.641155m0-50.579859c-76.246446 0-85.79743 0.32285-115.687975 1.66806a206.166732 206.166732 0 0 0-68.148288 13.075431 143.372376 143.372376 0 0 0-82.084654 82.111558 205.25199 205.25199 0 0 0-13.075431 68.148288c-1.345209 29.917448-1.668059 39.495336-1.668059 115.687975s0.32285 85.79743 1.668059 115.687974a205.655553 205.655553 0 0 0 13.075431 68.175193 143.453088 143.453088 0 0 0 82.084654 82.084653 206.139828 206.139828 0 0 0 68.148288 13.075432c29.944352 1.345209 39.495336 1.668059 115.687975 1.668059s85.79743-0.32285 115.687974-1.668059a206.139828 206.139828 0 0 0 68.148289-13.075432 143.587609 143.587609 0 0 0 82.111558-82.084653 206.435774 206.435774 0 0 0 13.048527-68.175193c1.345209-29.917448 1.694963-39.468432 1.694963-115.687974s-0.349754-85.824335-1.694963-115.687975a206.005307 206.005307 0 0 0-13.048527-68.148288 143.506897 143.506897 0 0 0-82.111558-82.111558 206.166732 206.166732 0 0 0-68.148289-13.075431c-29.944352-1.345209-39.495336-1.668059-115.687974-1.66806" fill="#FFFFFF" p-id="4079"></path><path d="M511.986548 367.860855a144.152597 144.152597 0 1 0 144.152597 144.152597 144.179501 144.179501 0 0 0-144.152597-144.152597m0 237.75224a93.599643 93.599643 0 1 1 93.572738-93.599643 93.599643 93.599643 0 0 1-93.572738 93.599643" fill="#FFFFFF" p-id="4080"></path><path d="M695.553769 362.157169a33.684034 33.684034 0 1 1-33.684034-33.684034 33.710938 33.710938 0 0 1 33.684034 33.684034" fill="#FFFFFF" p-id="4081"></path></svg>
+  
+  <div class="logo flex flex-col gap-6 items-start mt-8">
+    <a href="https://www.instagram.com/lynnechen.art/" target="_blank" class="icon-link">
+      <i class="ri-instagram-line ri-2x"></i>
     </a>
-    <a href="https://www.google.com">
-      <svg t="1693100825457" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5172" width="32" height="32"><path d="M919.759462 318.994613c0-9.605475-0.184234-19.102577-0.608696-28.534655 41.060787-30.595551 76.68666-68.894629 104.863684-112.720738a403.247526 403.247526 0 0 1-120.68436 33.017692c43.401647-26.708567 76.68666-69.423851 92.415219-120.68436-40.638132 24.645865-85.589515 42.265535-133.383889 51.446549-38.295465-43.575045-92.944441-71.329413-153.358869-72.360764-116.027926-1.918205-210.084998 96.132418-210.084999 218.973404 0 17.460724 1.826088 34.394031 5.451171 50.745736-174.722834-11.243716-329.55016-102.190479-433.116978-239.293373-18.071226 32.847907-28.438925 71.237296-28.438925 112.377556 0 77.811934 37.090717 146.970271 93.44657 187.779994-34.500598-1.560574-66.819283-12.009553-95.166091-29.141545v2.85744c0 108.752474 72.440238 199.870827 168.560013 221.13003-17.621477 5.012259-36.207475 7.62044-55.322696 7.526516a191.542349 191.542349 0 0 1-39.500214-4.325895c26.708567 89.120675 104.332655 154.231274 196.231295 156.400543-71.923659 59.635948-162.525433 95.258208-260.892145 95.00895-16.960401 0-33.720311-1.137918-50.15149-3.200621 93.011271 63.80109 203.418242 100.960443 322.104923 100.960443 386.350343 0.092117 597.636477-336.191629 597.636477-627.962902z" fill="#231815" p-id="5173"></path></svg>
+    <a href="https://dribbble.com/lynnechen1" target="_blank" class="icon-link">
+      <i class="ri-dribbble-line ri-2x"></i>
     </a>
-    <a href="https://www.baidu.com">
-      <svg t="1693100885523" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6168" width="32" height="32"><path d="M1024 192v640c0 36.266667-27.733333 64-64 64H896V315.178667l-384 275.754666-384-275.754666V896H64C27.690667 896 0 868.266667 0 832v-640c0-18.133333 6.912-34.133333 18.389333-45.568A63.36 63.36 0 0 1 64 128H85.333333l426.666667 309.333333L938.666667 128h21.333333c18.133333 0 34.133333 6.912 45.610667 18.432 11.52 11.434667 18.389333 27.434667 18.389333 45.568z" fill="" p-id="6169"></path></svg>
-    </a>
-  </div>
+  </div> 
 </nav>
 
 <div id="main">
   <div class="desc">
       <p>
-          Explore our exquisite collection of high-quality prints, meticulously crafted on premium heavyweight art paper (200gsm). Orders are expertly handled by Professional Printing Supplier in China and shipped worldwide.
-          Utilizing a global network of 50+ printers, MakeRoom ensures printing and shipping from the closest facility to you, minimizing carbon emissions and shipping costs.
-          Questions? Reach out via email. For swift assistance, visit their Customer Support Page or email directly. Your artistic satisfaction is our priority.
+        🛒 This page is for portfolio demonstration only.<br>
+    For real purchases, please contact me at <strong>cllin206@gmail.com</strong>.
       </p>
-
-      <p>
-          探索我们精美的高品质印刷品系列，这些印刷品均采用优质厚纸（200 克）精心制作而成。订单由中国的专业印刷供应商专业处理，并运往世界各地。
-          MakeRoom 利用由 50 多家印刷厂组成的全球网络，确保从距离您最近的工厂进行印刷和发货，从而最大限度地减少碳排放和运输成本。
-          有问题？请通过电子邮件联系我们。如需快速帮助，请访问客户支持页面或直接发送电子邮件。您的艺术满意度是我们的首要任务。
-      </p>
-  </div>
+    </div>
   <div class="shop-item">
+    <div>
       <div>
-          <div>
-              <img src="image/1.webp"/>
-              <span>ShangHai Lady</span>
-              <span>$20</span>
-          </div>
-          <div>
-              <img src="image/2.png"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
-          <div>
-              <img src="image/3.jpeg"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
+        <img src="image/1.jpg" data-key="Love" class="shop-img" />
+        <span>Love</span>
+        <span>$20</span>
       </div>
-
       <div>
-          <div>
-              <img src="image/4.png"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
-          <div>
-              <img src="image/5.png"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
-          <div>
-              <img src="image/6.png"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
+        <img src="image/2.jpg" data-key="Universe" class="shop-img" />
+        <span>Universe</span>
+        <span>$20</span>
       </div>
-
       <div>
-          <div>
-              <img src="image/7.png"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
-          <div>
-              <img src="image/8.png"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
-          <div>
-              <img src="image/9.png"/>
-              <span>Lady</span>
-              <span>$20</span>
-          </div>
+        <img src="image/3.jpg" data-key="Imagine" class="shop-img" />
+        <span>Imagine</span>
+        <span>$20</span>
       </div>
+    </div>
+  
+    <div>
+      <div>
+        <img src="image/4.jpg" data-key="Halloween" class="shop-img" />
+        <span>Halloween</span>
+        <span>$20</span>
+      </div>
+      <div>
+        <img src="image/5.jpg" data-key="Fortune" class="shop-img" />
+        <span>Fortune</span>
+        <span>$20</span>
+      </div>
+      <div>
+        <img src="image/6.jpg" data-key="Hope" class="shop-img" />
+        <span>Hope</span>
+        <span>$20</span>
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <img src="image/7.jpg" data-key="Friend" class="shop-img" />
+        <span>Friend</span>
+        <span>$20</span>
+      </div>
+      <div>
+        <img src="image/8.jpg" data-key="Name" class="shop-img" />
+        <span>Name</span>
+        <span>$20</span>
+      </div>
+      <div>
+        <img src="image/9.jpg" data-key="Methods" class="shop-img" />
+        <span>Methods</span>
+        <span>$20</span>
+      </div>
+    </div>  
   </div>
-</div>
+  
 
 
 <!--购物车 cart-->
@@ -120,216 +114,20 @@
 <div class="shop-cart-detail">
     <!-- 关闭icon -->
     <svg t="1693622844373" class="cart-detail-exit" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2303" width="20" height="20"><path d="M512 2024.13663844" p-id="2304"></path><path d="M932.02639097 870.41697111L576.73152102 515.33023989l354.25417224-354.25417225c17.90003388-17.90003388 17.90003388-47.03962587 0-64.73152101-17.90003388-17.90003388-47.03962587-17.90003388-64.731521 0L512 450.59871886 157.74582774 96.34454663c-17.90003388-17.90003388-47.24776463-17.48375439-64.93965973 0.20814077l0.20814072-0.20814077c-17.90003388 17.90003388-17.69189514 46.83148513 0.20814077 64.73152101l354.25417226 354.25417225L92.18174774 870.41697111c-17.90003388 17.90003388-17.90003388 47.03962587 0 64.73152102 17.90003388 17.90003388 47.03962587 17.90003388 64.73152106 0L512 580.06175888 867.29487196 935.14849009c17.90003388 17.90003388 46.6233464 18.10817465 64.5233803 0.20814077l0.20814071-0.20814077C949.71828611 917.45659698 949.71828611 888.31700498 932.02639097 870.41697111z" p-id="2305"></path></svg>
-
     <span class="title">Cart</span>
-
-    <div class="detail-item">
-    </div>
+    <div class="detail-item"></div>
+</div>
+</div>
 </div>
 
 
-<script>
-    const shopList = document.querySelectorAll('#main .shop-item img');
-
-    // 通过api获取
-    const imgNameList = ['1.webp', '2.png', '3.jpeg', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png', '11.png', '12.png', '13.png', '14.jpg'];
-
-    // 定义选中的数量和选中的图片
-    let cartNumber = 0;
-    let cartImgSrc;
-
-    shopList.forEach((item, index) => {
-        // 每张图片点击时触发的事件
-        item.addEventListener('click', event => {
-            console.log(event.target)
-            // 创建蒙版
-            const mask = document.createElement('div');
-            mask.className = 'mask';
-
-            // 创建弹框，弹窗的z-index要比蒙版高，我们才能点击，z-index越高，越在上层
-            const alert = document.createElement('div');
-            alert.className = 'alert-box';
-
-            // 里面的小盒子，内容区
-            const content = document.createElement('div');
-            content.className = 'alert-content';
-
-            // 添加退出功能
-            let exitSvg = document.createElement('div');
-            exitSvg.className = 'exit-svg';
-            exitSvg.innerHTML = `<svg t="1693622844373" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2303" width="20" height="20"><path d="M512 2024.13663844" p-id="2304"></path><path d="M932.02639097 870.41697111L576.73152102 515.33023989l354.25417224-354.25417225c17.90003388-17.90003388 17.90003388-47.03962587 0-64.73152101-17.90003388-17.90003388-47.03962587-17.90003388-64.731521 0L512 450.59871886 157.74582774 96.34454663c-17.90003388-17.90003388-47.24776463-17.48375439-64.93965973 0.20814077l0.20814072-0.20814077c-17.90003388 17.90003388-17.69189514 46.83148513 0.20814077 64.73152101l354.25417226 354.25417225L92.18174774 870.41697111c-17.90003388 17.90003388-17.90003388 47.03962587 0 64.73152102 17.90003388 17.90003388 47.03962587 17.90003388 64.73152106 0L512 580.06175888 867.29487196 935.14849009c17.90003388 17.90003388 46.6233464 18.10817465 64.5233803 0.20814077l0.20814071-0.20814077C949.71828611 917.45659698 949.71828611 888.31700498 932.02639097 870.41697111z" p-id="2305"></path></svg>`
-            content.appendChild(exitSvg);
-
-            // 大图
-            let eventImgSrc = event.target.src;
-            let bigImg = document.createElement('div');
-            bigImg.innerHTML = `<img id="big-img" src="${eventImgSrc}" style="width: 500px; height: 500px; object-fit: cover; border-radius: 10px"/>`
-            content.appendChild(bigImg);
-
-            // 小图
-            let smallImg = document.createElement('div');
-            smallImg.className = 'small-img';
-            // 获取上一张和下一张图片的index
-            let imgNumber = imgNameList.length;
-            let prev = index - 1;
-            // 小于零则取最后一张
-            if (prev < 0) {
-                prev = imgNumber - 1;
-            }
-            // 大于最后一张则取0
-            let next = index + 1;
-            if (next > imgNameList) {
-                next = 0;
-            }
-
-            // 生成三张图片 -> prev cur next
-            let smallImgIndexList = [prev, index, next];
-            for (let i = 0; i < 3; i++) {
-                let imgNode = document.createElement('img');
-                imgNode.className = 'small-img-item';
-
-                let imgIndex = smallImgIndexList[i];
-                let smallImgSrc = `image/${imgNameList[imgIndex]}`;
-                imgNode.src = smallImgSrc;
-
-                // 注册点击事件，点击时替换大图
-                imgNode.addEventListener('click', () => {
-                    bigImg.querySelector('img').src = smallImgSrc;
-                })
-
-                smallImg.appendChild(imgNode);
-            }
-
-            content.appendChild(smallImg);
-
-            // 描述 和 add to cart
-            let footer = document.createElement('div');
-            footer.className = 'shop-footer';
-            footer.innerHTML = `
-                <div class="footer-desc">
-                    <p class="title">Santorini</p>
-                    <p class="price">$20</p>
-                    <p>Memories from the Greek islands. Whitewashed houses with blue windows, narrow stone-paved alleys, plant pots, and of course an endless amount of cats! Available in A3 and A2.</p>
-                    <p>Museum-quality giclée print on premium, heavyweight (200gsm) art paper.</p>
-                    <p>Fulfilled by mymakeroom.com and shipped worldwide.</p>
-                    <p>Delivered in a reinforced cardboard tube.</p>
-                </div>
-
-                <div class="footer-cart">
-                    <div class="counter">
-                        <span id="sub">-</span>
-                        <span id="number">1</span>
-                        <span id="add">+</span>
-                    </div>
-
-                    <div class="cart">
-                        Add to Cart
-                    </div>
-                </div>
-            `;
+<script src="descriptions.js"></script>
+<script src="shop.js"></script>
+<script src="about.js"></script>
 
 
-            content.appendChild(footer);
-
-            alert.appendChild(content);
-
-            // 监听点击事件，移除蒙版和弹窗
-            exitSvg.addEventListener('click', () => {
-                // 移除蒙版
-                mask.remove();
-                // 移除弹窗
-                alert.remove();
-            })
-
-            document.body.appendChild(mask);
-            document.body.appendChild(alert);
-
-            // 注册加减点击事件
-            document.querySelector('#add').addEventListener('click', () => {
-                let numberElement = document.querySelector('#number');
-                // 获取当前的数量
-                let number = Number(numberElement.innerText);
-                numberElement.innerText = number + 1;
-            })
-
-            document.querySelector('#sub').addEventListener('click', () => {
-                let numberElement = document.querySelector('#number');
-                // 获取当前的数量
-                let number = Number(numberElement.innerText);
-                // 数量不能小于0
-                if (number === 0) {
-                    return;
-                }
-                numberElement.innerText = number - 1;
-            })
-
-            // 用户点击 add to cart 时记录数量和图片链接
-            document.querySelector('.footer-cart .cart').addEventListener('click', () => {
-                cartNumber = Number(document.querySelector('#number').innerText);
-                cartImgSrc = document.querySelector('#big-img').src;
-
-                // 购物车数量同步
-                document.querySelector('.shop-cart > span').innerText = cartNumber;
-            })
-        })
-    })
-
-    // 点击cart弹出购物车页面
-    const cartDetail = document.querySelector('.shop-cart-detail');
-    document.querySelector('.shop-cart').addEventListener('click', () => {
-        cartDetail.style.display = 'block';
-        // 当用户点击加入购物车之后才有详细信息
-        if (cartImgSrc) {
-            const detailItem = document.querySelector('.shop-cart-detail .detail-item');
-            detailItem.innerHTML = `
-            <img src="${cartImgSrc}"/>
-            <div>
-                <div>ShangHai Lady</div>
-                <div>A3 Portrait</div>
-                <div class="logic">
-                    <div class="content">
-                        <span id="cart-sub">-</span>
-                        <span id="cart-number">${cartNumber}</span>
-                        <span id="cart-add">+</span>
-                    </div>
-                    <div class="price">
-                        $${20 * cartNumber}
-                    </div>
-                </div>
-            </div>
-            <div class="submit">确认提交</div>
-        `;
-
-            // 购物车内+ - 逻辑
-            document.querySelector('#cart-add').addEventListener('click', () => {
-                let cartNumberNode = detailItem.querySelector('#cart-number');
-                let cartNumber = Number(cartNumberNode.innerText);
-                let newNumber = cartNumber + 1;
-                cartNumberNode.innerText = newNumber;
-                detailItem.querySelector('.price').innerText = `$${20 * newNumber}`;
-            })
-
-            document.querySelector('#cart-sub').addEventListener('click', () => {
-                let cartNumberNode = detailItem.querySelector('#cart-number');
-                let cartNumber = Number(cartNumberNode.innerText);
-                let newNumber = cartNumber - 1;
-
-                // 不能小于0
-                if (newNumber < 0) {
-                    return;
-                }
-                cartNumberNode.innerText = newNumber;
-                detailItem.querySelector('.price').innerText = `$${20 * newNumber}`;
-            })
-
-        }
-    })
-
-    // 点击关闭按钮，关闭购物车页面
-    document.querySelector('.cart-detail-exit').addEventListener('click', () => {
-        cartDetail.style.display = 'none';
-    })
-</script>
-
+<footer style="width: 100%; text-align: center; margin-top: 50px; padding: 20px 0; font-size: 14px; color: #888;">
+  <p>© 2024 | Coded by Lynne.</p>
+</footer>  
 </body>
 </html>

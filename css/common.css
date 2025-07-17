@@ -1,69 +1,155 @@
+/* === Reset & Base Font === */
 * {
-    margin: 0;
-    padding: 0;
-    font-family:  "Microsoft YaHei UI",serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
 }
+
+
+/* === NAV Sidebar === */
+#nav {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px; /* ← 加大左侧内边距 */
+  padding-right: 50px;
+}
+
+
+/* === Profile Icon === */
+#nav .icon img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* === Link Navigation === */
+#nav .link {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.link div {
+  cursor: pointer;
+  transition: font-weight 0.3s ease;
+}
+
+.link div:hover,
+.link .active {
+  font-weight: 700;
+  color: black;
+}
+
+/* === Logo Icon Group === */
+#nav .logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 5vh; /* 稍微拉远一些，让图标区更舒展 */
+}
+
+.logo svg {
+  stroke: #000;
+  transition: stroke 0.3s ease;
+}
+
+body.dark .logo svg {
+  stroke: #fff;
+}
+
+.logo svg:hover {
+  stroke: #888;
+}
+
+/* === Link 样式 (备用 a 标签用法) === */
+.link a {
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1rem;
+  display: block;
+  transition: font-weight 0.3s;
+}
+
+.link a:hover,
+.link a.active {
+  font-weight: bold;
+}
+
+/* === 图标 hover 颜色 for <i> 元素 (备用) === */
+a i:hover {
+  color: #6b7280 !important; /* Tailwind gray-500 */
+}
+
+/* === Main Content Area === */
+#main {
+  display: flex;
+  flex: 0.7;
+  flex-wrap: wrap;
+  gap: 20px; /* 图之间间距 */
+  justify-content: flex-start;
+  margin-top: 40px;
+  padding: 0 20px; /* 左右留白 */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  padding: 40px; /* 四周留白 */
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row; /* 原来 body 的效果移过来 */
+  padding: 40px;
+  box-sizing: border-box;
+}
+
 
 #nav {
-    flex: 0.3;
-
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-    padding: 0 50px;
+  font-family: 'Roboto Flex', sans-serif;
 }
 
-#nav .icon {
-    /*display: flex;*/
-    /*justify-content: center;*/
+/* 图标默认黑色，hover 时变灰 */
+.icon-link i {
+  color: black;
+  transition: color 0.3s ease;
+  text-decoration: none; /* 确保无下划线 */
 }
 
-#nav .icon img {
-    width: 200px;
+.icon-link i:hover {
+  color: #6b7280; /* Tailwind 的 gray-500 */
 }
 
-#nav div.link {
-    margin-top: 5vh;
-    font-size: 14px;
-    font-weight: bold;
+/* 去除链接下划线（双重保险） */
+.icon-link {
+  text-decoration: none;
 }
 
-#nav div.link > div {
-    cursor: pointer;
-    transition: .5s;
-}
 
-.active {
-    color: #977bc9;
+.page-footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #888;
 }
-
-#nav div.link > div:hover {
-    color: #977bc9;
-}
-
-#nav div.link > div {
-    margin-bottom: 2vh;
-}
-
-#nav .logo {
-    display: flex;
-    flex-direction: column;
-}
-
-#nav .logo svg {
-    margin-top: 20px;
-}
-
-#main {
-    flex: 0.7;
-    margin-top: 20px;
-    /*background-color: aqua;*/
-}
-

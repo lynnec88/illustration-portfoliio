@@ -1,13 +1,25 @@
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 图之间间距 */
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
+  
+#main .desc {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left; /* 新增：对齐主内容 */
+  }
+  
 #main .desc p {
     font-size: 14px;
     margin-bottom: 20px;
-    text-align: center;
-}
-
-#main .desc {
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
+    text-align: center;  
+    max-width: 720px;  /* 可选：限制文字宽度，与图片宽度差不多 */
+  }
 
 #main .shop-item > div{
     display: flex;
@@ -112,9 +124,6 @@
     cursor: pointer;
 }
 
-.shop-footer {
-
-}
 
 .footer-desc .title {
     font-weight: bold;
@@ -291,7 +300,5 @@
 .shop-cart-detail .submit:hover {
     background-color: #9785cb;
 }
-
-
 
 

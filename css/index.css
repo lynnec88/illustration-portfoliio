@@ -1,4 +1,16 @@
 /* img area  */
+#main .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 图之间间距 */
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
+#main {
+    flex: 0.7;
+    padding: 0 40px;
+  }
+   
 #main .list img{
     width: 200px;
     height: 200px;
@@ -50,22 +62,7 @@
     }
 }
 
-.img-about {
-    width: 160px;
-    border-radius: 50%;
-    margin-left: 50%;
-    transform: translateX(-50%)
-}
 
-.text-about {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.text-about p {
-    width: 70%;
-    margin-top: 20px;
-    text-indent: 1em;
-}
+  
+ 
+  
