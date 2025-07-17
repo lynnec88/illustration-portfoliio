@@ -1,8 +1,10 @@
-# 🎨 Lynne Chen Illustration Portfolio  
-Lynne 插画作品集网站  
+# 🎨 Lynne’s Illustration Portfolio
 
-This is the personal portfolio website of freelance illustrator **Lynne Chen**, showcasing her illustration works, style, and a mock store page.  
-这是自由插画师 **Lynne** 的个人作品集网站，用于展示她的插画风格、艺术理念，并包含一个模拟商店页面。
+🚀 [Live Demo](https://lynnec88.github.io/illustration-portfoliio/)
+
+一个展示插画作品的响应式个人作品网站。用户可以浏览作品、查看详情，并进入商店页面。
+
+A responsive personal portfolio site for showcasing illustration works. Users can browse artworks, view details, and access the shop page.
 
 ---
 
@@ -57,6 +59,11 @@ illustration-portfoliio/
 ### 🏠 Homepage
 ![Homepage](screenshots/homepage.png)
 
+### 🖼️ Artwork Viewer Modal
+Click on a work from the homepage to view its details in a modal with left-right image navigation.
+
+![Artwork Viewer Modal](screenshots/artwork-viewer-modal.png)
+
 ### 🛍️ Shop Page
 ![Shop Page](screenshots/shop-page.png)
 
@@ -76,14 +83,6 @@ git clone https://github.com/lynnec88/illustration-portfoliio.git
 cd illustration-portfoliio
 打开 index.html 或 shop.html 即可在浏览器查看。
 
-推荐使用 VSCode + Live Server 插件预览。
-
-📦 GitHub Pages Deployment | 部署到 GitHub Pages（可选）
-确保 index.html 为首页文件。
-
-所有路径均为相对路径（项目已设置）。
-
-打开 GitHub 仓库设置 → Pages → 选择 main 分支作为部署源。
 
 🧑‍🎨 About the Artist | 关于插画师
 👩‍🎨 Illustrator & Web Developer: Lynne Chen
